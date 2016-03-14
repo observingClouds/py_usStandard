@@ -1,15 +1,15 @@
 # usStandard
 
 Python wrapper for Ralph Carmichael's Fortran program to estimate the usStandard atmosphere.
-Should work with Linux and Mac OS X. Requires numpy/f2py to be installed. 
+Should work with Linux and Mac OS X. Requires numpy/f2py to be installed.
 
 ## Installation
 
-use make ::
+use make
 
     make
 
-and ::
+and 
 
     make install
 
