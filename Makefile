@@ -1,4 +1,4 @@
-F2PY := $(shell type -p f2py2.7 || echo f2py) #on newer Ubuntu systems, only f2py2.7 is available
+F2PY := $(shell which f2py2.7 || echo f2py) #on newer Ubuntu systems, only f2py2.7 is available
 
 all: usStandardAtmosphere.so
 
