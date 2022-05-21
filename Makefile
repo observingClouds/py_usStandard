@@ -7,8 +7,8 @@ usStandardAtmosphere.so: usStandard.f90
 
 
 install: usStandardAtmosphere.so
-	cp *.py ~/lib/python/
-	cp *.so ~/lib/python/
+	cp *.py /work/mh0010/m300408/anaconda3/envs/mesoscale/lib/python3.9/
+	cp *.so /work/mh0010/m300408/anaconda3/envs/mesoscale/lib/python3.9/
 
 clean:
 	-rm *.so
